@@ -1,0 +1,42 @@
+{
+  "action": "published",
+  "release": {
+    "id": 379679455,
+    "tag_name": "v0.2.2",
+    "name": "Outlaw Tools v0.2.2 - Resource Clarity",
+    "body": "## Changes\n\n- Improves resource clarity in the Outlaw Tools desktop companion.\n- Keeps stable Windows and Linux download filenames for the /tools page.\n- Includes SHA256 checksum assets for both platforms.",
+    "draft": false,
+    "prerelease": false,
+    "html_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/tag/v0.2.2",
+    "assets": [
+      {
+        "name": "OutlawTools-Setup.exe",
+        "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.2.2/OutlawTools-Setup.exe",
+        "state": "uploaded",
+        "size": 91945866,
+        "digest": "sha256:751f0ebf35d797b97a782c65ffae1973174e3dbae66b6eab29c3ecf09517922f"
+      },
+      {
+        "name": "OutlawTools-Setup.exe.sha256",
+        "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.2.2/OutlawTools-Setup.exe.sha256",
+        "state": "uploaded",
+        "size": 95,
+        "digest": "sha256:1a10507f409b4a11ea0ed32425065e46b98140b0abd34e2c7b7e7d46eca5c28b"
+      },
+      {
+        "name": "OutlawTools-linux-x86_64.tar.gz",
+        "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.2.2/OutlawTools-linux-x86_64.tar.gz",
+        "state": "uploaded",
+        "size": 428935726,
+        "digest": "sha256:96923e82db89b4a9d4bbc39f06dcf072643d2e01634e3678fad4a0bdd3850dc7"
+      },
+      {
+        "name": "OutlawTools-linux-x86_64.tar.gz.sha256",
+        "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.2.2/OutlawTools-linux-x86_64.tar.gz.sha256",
+        "state": "uploaded",
+        "size": 98,
+        "digest": "sha256:a2fb6c8941f7a2f26660bac652ace2ef6c85255e96ceee871811625239516c04"
+      }
+    ]
+  }
+}

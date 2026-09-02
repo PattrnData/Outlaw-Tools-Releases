@@ -1,0 +1,47 @@
+name: Announce Outlaw Tools release to Discord
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  discord-release-announcement:
+    name: Validate and optionally post no-ping Discord release announcement
+    runs-on: ubuntu-latest
+    if: ${{ github.event.release.draft == false }}
+    steps:
+      - name: Check out release automation
+        uses: actions/checkout@v4
+
+      - name: Validate Discord release announcement payload
+        run: |
+          python3 scripts/discord_release_announcement.py \
+            --event "$GITHUB_EVENT_PATH" \
+            --receipt "release-discord-dry-run-receipt-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json" \
+            --payload-out "release-discord-dry-run-payload-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json" \
+            --dry-run \
+            --check-urls
+
+      - name: Send Discord release announcement after explicit repo enablement
+        if: ${{ vars.OUTLAW_TOOLS_DISCORD_RELEASES_ENABLED == 'true' }}
+        env:
+          DISCORD_OUTLAW_TOOLS_RELEASES_WEBHOOK_URL: ${{ secrets.DISCORD_OUTLAW_TOOLS_RELEASES_WEBHOOK_URL }}
+        run: |
+          python3 scripts/discord_release_announcement.py \
+            --event "$GITHUB_EVENT_PATH" \
+            --receipt "release-discord-live-receipt-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json" \
+            --payload-out "release-discord-live-payload-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json" \
+            --check-urls
+
+      - name: Upload Discord release receipts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: outlaw-tools-discord-release-receipts-${{ github.event.release.id }}-${{ github.event.release.tag_name }}
+          path: |
+            release-discord-*-receipt-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json
+            release-discord-*-payload-${{ github.event.release.id }}-${{ github.event.release.tag_name }}.json
+          if-no-files-found: warn

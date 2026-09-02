@@ -1,0 +1,42 @@
+{
+  "action": "published",
+  "release": {
+    "id": 400000001,
+    "tag_name": "v0.3.0-beta.1",
+    "name": "Outlaw Tools v0.3.0-beta.1 - Synthetic Preview",
+    "body": "## Preview changes\n\n- Synthetic fixture for validating future prerelease Discord copy.\n- Confirms prerelease status is explicit before any live webhook send.",
+    "draft": false,
+    "prerelease": true,
+    "html_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/tag/v0.3.0-beta.1",
+    "assets": [
+      {
+        "name": "OutlawTools-Setup.exe",
+        "browser_download_url": "https://example.invalid/releases/v0.3.0-beta.1/OutlawTools-Setup.exe",
+        "state": "uploaded",
+        "size": 100,
+        "digest": "sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+      },
+      {
+        "name": "OutlawTools-Setup.exe.sha256",
+        "browser_download_url": "https://example.invalid/releases/v0.3.0-beta.1/OutlawTools-Setup.exe.sha256",
+        "state": "uploaded",
+        "size": 95,
+        "digest": "sha256:bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+      },
+      {
+        "name": "OutlawTools-linux-x86_64.tar.gz",
+        "browser_download_url": "https://example.invalid/releases/v0.3.0-beta.1/OutlawTools-linux-x86_64.tar.gz",
+        "state": "uploaded",
+        "size": 200,
+        "digest": "sha256:cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc"
+      },
+      {
+        "name": "OutlawTools-linux-x86_64.tar.gz.sha256",
+        "browser_download_url": "https://example.invalid/releases/v0.3.0-beta.1/OutlawTools-linux-x86_64.tar.gz.sha256",
+        "state": "uploaded",
+        "size": 98,
+        "digest": "sha256:dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+      }
+    ]
+  }
+}
