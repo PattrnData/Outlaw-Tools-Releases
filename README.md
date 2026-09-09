@@ -6,7 +6,7 @@ Public release downloads for **Outlaw Tools**, the Orbital Outlaws desktop compa
 - Features and roadmap: https://www.orbitaloutlaws.tv/tools#features and https://www.orbitaloutlaws.tv/tools#roadmap
 - Releases: https://github.com/PattrnData/Outlaw-Tools-Releases/releases
 
-The source repository remains private. This repository is only for public release notes, installers, Linux packages, and checksum assets.
+The source repository remains private. This repository contains public release notes, installers, Linux packages, checksum assets and feature screenshots.
 
 ## Current release
 
