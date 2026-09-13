@@ -18,49 +18,57 @@ Windows installs to `C:\Program Files\Orbital Outlaws\Outlaw Tools` by default. 
 
 ## Feature Gallery
 
-Actual v0.4.1 native-app captures using synthetic demonstration records, not private player data. Download availability is determined by the published releases above.
+Actual v0.5.1 native-app captures using synthetic demonstration records, not private player data. Download availability is determined by the published releases above.
 
 ### Loadouts
 
-Save FPS equipment plans, link recorded inventory batches and open material planning. Planned item QL and owned batch QL stay separate. Dynamic slots, compatibility validation, nested attachments and ship fitting remain planned.
+Build source-constrained FPS and ship fits, keep weapon attachments grouped beneath each weapon, and open missing craftable items directly in acquisition planning.
 
-![Loadouts](docs/screenshots/v0.4.1/loadouts.png)
+![FPS fitting](docs/screenshots/v0.5.1/fps.png)
+![Ship fitting](docs/screenshots/v0.5.1/ships.png)
+![Saved plans](docs/screenshots/v0.5.1/saved-plans.png)
 
 ### Crafting
 
 Resource-quality controls, item-stat estimates and inventory allocations with recorded locations and shortages. Plans do not consume stock or guarantee finished-item QL.
 
-![Crafting](docs/screenshots/v0.4.1/crafting.png)
+![Crafting](docs/screenshots/v0.5.1/crafting.png)
+
+### Shopping List
+
+Combine selected loadouts, Crafting recipes and Blueprints, subtract recorded inventory, and rank source-backed gathering stops by coverage and prevalence.
+
+![Shopping list](docs/screenshots/v0.5.1/shopping-list.png)
 
 ### Inventory
 
 Record quantities, QL and locations, compare snapshots and review continuously monitored game-log observations. Logs provide partial evidence, not complete inventory or automatic stock updates.
 
-![Inventory](docs/screenshots/v0.4.1/inventory.png)
+![Inventory](docs/screenshots/v0.5.1/inventory.png)
 
 ### Hangar
 
 Pledge JSON imports, confirmed purchase evidence and manual vehicles. Flight-ready availability is separate from your ownership record.
 
-![Hangar](docs/screenshots/v0.4.1/hangar.png)
+![Hangar](docs/screenshots/v0.5.1/hangar.png)
 
 ### Blueprints and Missions
 
 Blueprint discovery, unlock evidence, mission rewards and reputation routes.
 
-![Blueprints](docs/screenshots/v0.4.1/blueprints.png)
-![Missions](docs/screenshots/v0.4.1/missions.png)
+![Blueprints](docs/screenshots/v0.5.1/blueprints.png)
+![Missions](docs/screenshots/v0.5.1/missions.png)
 
 ### Mining and Resources
 
-GPU OCR, adjustable overlays and resource/location reference data.
+GPU OCR with one resizable Auto Alignment search area, colour-independent resource-marker tracking, and resource/location reference data.
 
-![Mining](docs/screenshots/v0.4.1/mining.png)
-![Resources](docs/screenshots/v0.4.1/resources.png)
+![Mining](docs/screenshots/v0.5.1/mining.png)
+![Resources](docs/screenshots/v0.5.1/resources.png)
 
 ### Home
 
-![Home](docs/screenshots/v0.4.1/home.png)
+![Home](docs/screenshots/v0.5.1/home.png)
 
 ## Privacy and Scope
 
