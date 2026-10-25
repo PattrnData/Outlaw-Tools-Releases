@@ -1,43 +1,43 @@
 {
-  "tag_name": "v0.9.0",
-  "name": "Outlaw Tools v0.9.0",
-  "body": "# Outlaw Tools v0.9.0\n\nPublic downloads for Outlaw Tools by Orbital Outlaws. Mining Scanner is the first complete module in the wider companion app.\n\nProduct home: https://www.orbitaloutlaws.tv/\n\nSource repository: private (PattrnData/Outlaw-Tools)\n\n# Outlaw Tools v0.9.0\n\n## Saved Routes\n\n- Build named routes from Shopping needs, refinery orders and tracked or observed missions. Choose a starting stop and group tasks by location; this is not a fastest-travel calculation.\n- Keep exact quantities, units, QL and source evidence. Unknown localities and unsupported raw/refined conversions stay unresolved. Mining exclusions remain in place.\n- Save, reopen, edit and delete plans. Complete, skip, defer and resume progress manually. Progress never changes stock or proves a game event; changed goals reset progress.\n- Open existing source workflows. Refinery links find the exact order across filters and pages.\n\n## Player Data\n\n- Routes support portable export, reviewed import and direct own-PC sync, with reviewable whole-plan conflicts and replay protection.\n- Update both PCs. Use Settings > Prepare this PC to review enabling route sync on an existing link. A verified backup is retained; peer links, history and acknowledgements stay intact.\n- Player data stays on PCs. Storage upgrades preserve existing data; older archives remain readable. Linux continues to use manual transfer.\n- Refreshed bundled ship fitting, FPS equipment and crafting snapshots with per-source patch/build provenance, plus economy identity/cache corrections.\n\n## Downloads\n\n- Windows installer and Linux x86_64 archive, with SHA-256 checksums.\n",
-  "published_at": "2026-10-25T19:40:25Z",
-  "html_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/tag/v0.9.0",
+  "tag_name": "v0.9.1",
+  "name": "Outlaw Tools v0.9.1",
+  "body": "# Outlaw Tools v0.9.1\n\nPublic downloads for Outlaw Tools by Orbital Outlaws. Mining Scanner is the first complete module in the wider companion app.\n\nProduct home: https://www.orbitaloutlaws.tv/\n\nSource repository: private (PattrnData/Outlaw-Tools)\n\n# Outlaw Tools v0.9.1\n\n## Economy Data\n\n- Check material identity mappings before refreshing prices, just as for equipment. A fresh quote cannot hide an expired or failed mapping.\n- Resolve raw and refined commodities by their exact game identity and form. Conflicting or ambiguous identities cannot reuse a stored provider ID or similar name; resource refresh clears obsolete IDs when no match remains.\n- Keep previously cached material quotes available offline with a stale identity-mapping warning. Refresh public data to validate the mapping before requesting new prices.\n- Preserve exact game-UUID Marketplace history queries and existing read-only data boundaries. No player stock or receipts change.\n\n## Roadmap\n\n- Update the in-app roadmap to reflect the saved Routes workspace released in v0.9.0. Wider acquisition adapters, source/build health, Link, Deck and voice remain separate work.\n\n## Downloads\n\n- Windows installer and Linux x86_64 archive, with SHA-256 checksums.\n",
+  "published_at": "2026-10-25T20:33:19Z",
+  "html_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/tag/v0.9.1",
   "draft": false,
   "prerelease": false,
   "assets": [
     {
-      "name": "OutlawTools-Setup-0.9.0.exe",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-Setup-0.9.0.exe"
+      "name": "OutlawTools-Setup-0.9.1.exe",
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-Setup-0.9.1.exe"
     },
     {
-      "name": "OutlawTools-Setup-0.9.0.exe.sha256",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-Setup-0.9.0.exe.sha256"
+      "name": "OutlawTools-Setup-0.9.1.exe.sha256",
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-Setup-0.9.1.exe.sha256"
     },
     {
-      "name": "OutlawTools-linux-x86_64-0.9.0.tar.gz",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-linux-x86_64-0.9.0.tar.gz"
+      "name": "OutlawTools-linux-x86_64-0.9.1.tar.gz",
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-linux-x86_64-0.9.1.tar.gz"
     },
     {
-      "name": "OutlawTools-linux-x86_64-0.9.0.tar.gz.sha256",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-linux-x86_64-0.9.0.tar.gz.sha256"
+      "name": "OutlawTools-linux-x86_64-0.9.1.tar.gz.sha256",
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-linux-x86_64-0.9.1.tar.gz.sha256"
     },
     {
       "name": "OutlawTools-Setup.exe",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-Setup.exe"
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-Setup.exe"
     },
     {
       "name": "OutlawTools-Setup.exe.sha256",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-Setup.exe.sha256"
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-Setup.exe.sha256"
     },
     {
       "name": "OutlawTools-linux-x86_64.tar.gz",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-linux-x86_64.tar.gz"
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-linux-x86_64.tar.gz"
     },
     {
       "name": "OutlawTools-linux-x86_64.tar.gz.sha256",
-      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.0/OutlawTools-linux-x86_64.tar.gz.sha256"
+      "browser_download_url": "https://github.com/PattrnData/Outlaw-Tools-Releases/releases/download/v0.9.1/OutlawTools-linux-x86_64.tar.gz.sha256"
     }
   ]
 }
